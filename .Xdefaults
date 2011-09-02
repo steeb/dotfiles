@@ -1,0 +1,4 @@
+URxvt*transparent: true
+URxvt*foreground: White
+URxvt*background: Black
+URxvt*scrollBar: false
