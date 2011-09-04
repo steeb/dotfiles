@@ -1,11 +1,19 @@
 syntax on
+
 set ts=4
 set number
 set incsearch
 set hlsearch
+set showmode
+set showcmd
+set showmatch
+set visualbell
+set background=dark
+set cursorline
 
 filetype plugin on
 filetype indent on
+
 au BufEnter *.tex set autowrite
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats = 'pdf'
