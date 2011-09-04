@@ -20,6 +20,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec /usr/bin/urxvtc
 
+# lock screen
+bindsym $mod+Shift+M exec /usr/bin/i3lock -t -i wallpaper.png
+
 # kill focused window
 bindsym $mod+Shift+Q kill
 
