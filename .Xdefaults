@@ -1,4 +1,11 @@
-URxvt*transparent: true
-URxvt*foreground: White
-URxvt*background: Black
-URxvt*scrollBar: false
+URxvt.transparent:		true
+URxvt.foreground:		white
+URxvt.background:		black
+URxvt.scrollBar:		false
+URxvt.saveLines:		10000
+URxvt.secondaryScroll:	true
+URxvt.font:				-misc-fixed-medium-*-normal-*-10-*-*-*-*-*-iso10646-1
+URxvt.boldFont:			-misc-fixed-medium-*-normal-*-10-*-*-*-*-*-iso10646-1
+URxvt.perl-ext-common:	default,matcher
+URxvt.urlLauncher:		/usr/bin/iceweasel
+URxvt.matcher.button:	1
