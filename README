@@ -1,0 +1,3 @@
+Meine dotfiles :)
+
+Die files werden seperat in dem Verzeichnis ~/.dotfiles.git ausgecheckt und dann mithilfe des install.sh Scriptes via symbolische Links installiert.
